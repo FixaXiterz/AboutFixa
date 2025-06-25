@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fixa Team</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #0ff;
+      text-align: center;
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      padding-top: 80px;
+    }
+
+    .profile {
+      width: 120px;
+      height: 120px;
+      border: 3px solid #0ff;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    h1 {
+      color: #0ff;
+      font-size: 28px;
+    }
+
+    p {
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      width: 220px;
+      margin: 10px auto;
+      padding: 12px;
+      background-color: #003c3c;
+      color: #0ff;
+      border: 1px solid #0ff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005e5e;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <div class="container">
+    <div class="profile">profile</div>
+    <h1>Fixa Team</h1>
+    <p>Welcome To My Website</p>
+
+    <a href="https://wa.me/6283133642548" class="btn" target="_blank">💬 Chat WhatsApp</a>
+    <a href="https://www.youtube.com/@UnknownWop" class="btn" target="_blank">📺 YouTube Channel</a>
+    <a href="https://whatsapp.com/channel/0029VaxH8JoJf05kyXjGB20A" class="btn" target="_blank">🕹️ Join Saluran</a>
+    <a href="https://www.tiktok.com/@fixapanelvip?_t=ZS-8xUuqHs1Y19&_r=1" class="btn" target="_blank">🎥 Tik Tok</a>
+    <a href="https://sociabuzz.com/fixa/tribe" class="btn" target="_blank">Donate</a>
+    <footer>© 2025 Fixa Team | #Fixa Team</footer>
+  </div>
+
+  <!-- Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 60,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#00ffff"
+        },
+        "shape": {
+          "type": "circle",
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": true
+        },
+        "size": {
+          "value": 3,
+          "random": true
+        },
+        "move": {
+          "enable": true,
+          "speed": 1.5
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
