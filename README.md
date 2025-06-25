@@ -1,2 +1,0 @@
-# AboutFixa
-Fixa Team
